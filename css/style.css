@@ -1,0 +1,23 @@
+Body{
+    margin: 0;
+}
+
+h1{
+    color: peru;
+}
+
+h3{
+    color: blue;
+}
+
+h4{
+    color: chocolate;
+}
+
+header{
+    background-color: darkgrey;
+}
+div{
+    /* border: solid 1px;
+    width: 100px */
+}
