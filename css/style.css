@@ -1,89 +1,125 @@
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+
+body {
     margin: 0;
 }
-H1, H2, H3, H4, H5, H6{
-    font-family: 'Roboto Slab', serif;  
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'roboto slab', serif;
+    margin-block: 0.2rem;
 }
 
-h1{
+h1 {
     color: white;
-    font-family: 'Roboto Slab', serif;
     font-size: 5.653rem;
 }
 
-h2{
+h2 {
     font-size: 3.998rem;
 }
 
-h3{
-    color: blue;
-    font-family: 'Roboto Slab', serif;
+h3 {
+    color: black;
     font-size: 2.827rem;
 }
 
-h4{
-    color: chocolate;
-    font-family: 'Roboto Slab', serif;
+h4 {
     font-size: 1.999rem;
 }
 
-h5{
+h5 {
     font-size: 1.414rem;
-    }
 
-
-
-header{
-    background-color: darkgrey;
 }
-div{
-    /* border: solid 1px;
-    width: 100px */
+
+h6 { 
+
+}
+
+p {
+    line-height: 1.6em;
+    margin-block: 0.6em;
+}
+
+header {
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+div {
+    /* border: solid 1px yellow;
+    width: 100px; */
+}
+
+button {
+    background-color: navy;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-large {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
 }
 
 .card {
     background-color: lavender;
     padding: 20px;
-    border: 2px solid red;
+    width: 400px;
+
     margin: 50px 30px 10px 30px;
-    width: 250px;
 }
 
-.btn-large{
-    background-color: navy;
-    color: white;
-    border-radius: 50px;
-    width: 200px;
-    height: 80px;
-    font-size: 21px;
+#card{
+    justify-content: space-evenly;
 }
 
-img{
+img {
     width: 100%;
 }
-.logo-header{
+
+.logo-header {
     width: 100px;
 }
-#hero{
+
+#hero {
     height: 100vh;
     /* background-color: tomato; */
     text-align: center;
-    background-image: url('../Img/sam-wermut-35muyqODIHA-unsplash.jpg');
-    background-size:cover;
-    background-position: center;
+    background-image: url('../Img/tyler-nix-6mze64HRU2Q-unsplash.jpg');
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px 0px 0px;
+    /* background-position: center; */
 }
 
-#about{
+#about {
     height: 50vh;
+}
+
+#contact {
+    height: 600px;
+    background-color: coral;
+    /* border: 5px solid black;
+    margin: 100px; */
+    padding: 50px 100px;
+}
+
+footer {
+    height: 50vh;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+  }
+
+  a{
+
     }
-
-#contact{
-    height: 50vh;
-}
-footer{
-    height: 50vh;
-}

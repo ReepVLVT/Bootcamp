@@ -5,114 +5,149 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome REM UX UI</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
     <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css>">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&family=Roboto+Slab&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-<!-- start header -->
-<header>
-    <div>
-        <img src="img/logo.svg" alt="" class="logo-header">
-    </div>
-    <div>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-            <a href="https:/www.ironhack.com">Buy now</a>
-        </nav>
-    </div>
-    <div>
-        <a href="#">Longin</a>
-        <a href="#">Icon</a>
-    </div>
-</header>
-<!-- end header -->
+    <!-- start - header -->
+    <header class="container">
+        <div>
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
+        </div>
+        <div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="https://www.ironhack.com">Start planning</a>
+            </nav>
+        </div>
+        <div>
+            <a href="#"><i class="fas fa-user-circle fa-2x"></i></a>
+            <a href="#"><i class="fas fa-search fa-2x"></i></a>
+        </div>
+    </header>
+    <!-- end - header -->
 
-<!-- start the hero -->
-<section id="hero">
-    <h1>Heading 1</h1>
-    <h4>Test text for practice</h4>
-    <button class="btn-large">This is a button</button>
-</section>
-<!-- end hero -->
-
-<!-- start cards -->
-<section>
-    <!-- start Card 1 -->
-    <div class="card">
-        <img src="Img/james-donaldson-toPRrcyAIUY-unsplash.jpg" alt="">
-        <h3>Card title</h3>
-        <p>Discription</p>
-        Avatar
-        Author
-    </div>
-    <!-- end Card 1 -->
-
-    <!-- start Card 2 -->
-    <div class="card">
-        <img src="Img/jeremy-bishop-_CFv3bntQlQ-unsplash.jpg" alt="">
-        <h3>Card title</h3>
-        <p>Discription</p>
-        Avatar
-        Author
-    </div>
-    <!-- end Card 2 -->
-
-    <!-- start Card 3 -->
-    <div class="card">
-        <img src="Img/ryan-loughlin-HXqpJnLyHzg-unsplash.jpg" alt="">
-        <h3>Card title</h3>
-        <p>Discription</p>
-        Avatar
-        Author
-    </div>
-    <!-- end Card 3 -->
-
-</section>
-<!-- end cards -->
-
-<!-- start about -->
-
-<section id="about">
-    About
-</section>
-
-<!-- end - about -->
-
-<!-- start contact -->
-
-<section id="contact">
-    Contact
-</section>
-
-<!-- start the footer -->
-
-<footer>
-    Here is the footer 
-</footer>
-<!-- end the footer -->
-
-<!-- end - contact -->
-
-<!-- <Div>Div 1
-        <div></div>
-    </Div>
+    <!-- start - hero -->
+    <section id="hero" class="container">
+        <h1>Surfs up!</h1>
+        <h4>Plan your next surf trip</h4>
+        <button class="btn-large">Start planning</button>
+    </section>
+    <!-- end - hero -->
     
+    <!-- start - cards -->
+    <section id=card class="container">
+        <!-- start - card 1 -->
+        <div class="card">
+            <img src="Img/james-donaldson-toPRrcyAIUY-unsplash.jpg" alt="">
+            <h3>Card Title</h3>
+            <p>Description j <em>sdjnfskdjfn</em>sdj asjkd </p><p>Second paragraph</p>
+            avatar
+            author
+            <button>click me</button>
+        </div>    
+        <!-- end - card 1 -->
+
+        <!-- start - card 2 -->
+        <div class="card">
+            <img src="Img/jeremy-bishop-_CFv3bntQlQ-unsplash.jpg" alt="This is a flower">
+            <h3>Card Title</h3>
+            <p>Description</p>
+            avatar
+            author
+        </div>    
+        <!-- end - card 2 -->
+
+        <!-- start - card 3 -->
+        <div class="card">
+            <img src="Img/ryan-loughlin-HXqpJnLyHzg-unsplash.jpg" alt="">
+            <h3>Card Title</h3>
+            <p>Description</p>
+            avatar
+            author
+        </div>    
+        <!-- end - card 3 -->
+
+    </section>
+    <!-- end - cards -->
+    
+    <!-- start - about -->
+    <section id="about">
+        About
+    </section>
+    <!-- end - about -->
+
+    <!-- start - contact -->
+    <section id="contact">
+        <h3>Let's Connect</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+
+        <br><br>
+
+        <input type="checkbox" id="terms" checked>
+        <label for="terms">I accept terms and conditions</label>
+        
+        <br><br>
+
+        <label for="date">Starting Date</label>
+        <input type="date" id="date">
+
+        <br><br>
+
+        <label for="document">Add your ID</label>
+        <input type="file" id="document" value="test">
+
+        <br><br>
+
+        <label for="senha">Create a password</label>
+        <input type="password" id="senha">
+
+        <br><br>
+
+        <label for="mobile">Your Phone Number</label>
+        <input type="tel" id="mobile">
+
+        <br><br>
+
+        <input type="submit" value="Send all this info">
+
+    </section>
+    <!-- end - contact -->
+
+    <!-- start - footer -->
+    <footer>
+    <p>Follow me at</p>
+      <p><i class="fab fa-behance"></i></p>
+    </footer>
+    <!-- end - footer -->
+
+
+
+    <!-- <div>div 1
+        
+        <div></div>
+    </div>
+
+
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
-    
-    Hello world. -->
+
+    <p>Paragraph</p> -->
 </body>
 </html>
